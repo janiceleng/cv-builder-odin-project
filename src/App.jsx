@@ -1,5 +1,5 @@
 import PageHeader from './components/PageHeader'
-import JobSection from './components/Job'
+import Job from './components/Job'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import PersonalDetails from './components/PersonalDetails'
@@ -20,7 +20,7 @@ function App() {
           </SectionContainer>
 
           <SectionContainer>
-            <JobSection />
+            <Job />
           </SectionContainer>
         </ColumnLeft>
 

@@ -9,7 +9,7 @@ import UserInput from '../UserInput'
 import SectionHeader from '../SectionHeader'
 import { AddSkillRow, Delete, InputRow, Plus } from '../Skills/style'
 
-export default function Job({ updateJob, deleteJob, jobInfo, data, isNew }) {
+export default function Job({ deleteJob, isNew }) {
 
   const [modalOpen, setModalOpen] = useState(isNew ? true : false);
   const [jobs, setJobs] = useState(EXPERIENCE_CONFIG);
