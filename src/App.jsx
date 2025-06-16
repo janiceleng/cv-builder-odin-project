@@ -3,17 +3,17 @@ import JobSection from './components/Job'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import PersonalDetails from './components/PersonalDetails'
-import { SectionContainer, ColumnLeft, ColumnRight, Wrapper, Circle } from './style'
+import { SectionContainer, ColumnLeft, ColumnRight, Wrapper } from './style'
 import ProfileSection from './components/Profile'
 
 function App() {
 
   return (
     <>
-      <Circle>JL</Circle>
       <PageHeader />
 
       <Wrapper>
+
         <ColumnLeft>
           <SectionContainer $first={true}>
             <ProfileSection />
@@ -28,7 +28,7 @@ function App() {
           <SectionContainer $first={true}>
             <PersonalDetails />
           </SectionContainer>
-          
+
           <SectionContainer>
             <Education />
           </SectionContainer>

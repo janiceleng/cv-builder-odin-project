@@ -191,8 +191,8 @@ export const SKILLS_CONFIG = [
 ]
 
 export const PERSONAL_DETAILS_CONFIG = {
-  phone: '(917)524-8785',
-  email: 'janicesunjoo@gmail.com',
+  phone: '(917) 555-5555',
+  email: 'janicesunleng@gmail.com',
   location: 'NJ, NY, Remote'
 }
 export const NAME_CONFIG = {

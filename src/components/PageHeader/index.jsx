@@ -1,4 +1,4 @@
-import { JobTitle, Name, NameContainer } from "./style";
+import { JobTitle, Name, NameContainer, Circle } from "./style";
 import { useState } from 'react'
 import { LABEL_CONFIG, NAME_CONFIG, nameFields } from "../../constants";
 import SectionHeader from "../SectionHeader";
@@ -26,8 +26,12 @@ export default function NameHeader() {
         newTempData[fieldName] = e.target.value;
         setTempData(newTempData);
     }
+    const firstInitial = data?.firstName[0] || '';
+    const lastInitial = data?.lastName[0] || '';
+    const initials = firstInitial + lastInitial;
     return (
         <>
+            <Circle>{initials}</Circle>
             <NameContainer>
                 <SectionHeader onEdit={handleOpenModal} />
                 <Name>{data.firstName} {data.lastName}</Name>

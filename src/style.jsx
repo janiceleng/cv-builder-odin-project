@@ -27,22 +27,4 @@ export const SectionContainer = styled.div`
     padding: 20px 0;
 `
 
-export const Circle = styled.div`
-    background-color:white;
-    border-radius: 50%;
-    border: 10px solid #BCA88E;
-    color: #555555;
-    font-family: "Dynalight", cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150px;
-    font-style: italic;
-    height: 150px;
-    line-height: 130px;
-    margin: auto;
-    text-align: center;
-    text-transform: lowercase;
-    transform: rotate(0deg);
-    width: 150px;
-`
-
-
 
