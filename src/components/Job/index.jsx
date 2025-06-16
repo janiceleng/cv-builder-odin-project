@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { EXPERIENCE_CONFIG, jobFields } from '../../constants'
 import { JobContainer,
-  TitleDiv, CompanyDiv, YearDiv, Ul, Edit, Flex, DescriptionDiv
+  TitleDiv, CompanyDiv, YearDiv, Ul, Flex, DescriptionDiv
  } from './style'
+import { Edit } from '../shared-style'
 import Modal from '../Modal'
 import UserInput from '../UserInput'
 import SectionHeader from '../SectionHeader'

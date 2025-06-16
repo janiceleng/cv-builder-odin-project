@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { MdAdd, MdEdit } from 'react-icons/md'
+import { MdAdd } from 'react-icons/md'
+import { Edit as BaseEdit } from '../shared-style'
 
 export const Row = styled.div`
     display: flex;
@@ -31,11 +32,6 @@ export const PlusButton = styled(MdAdd)`
         color: black;
     }
 `
-export const EditButton = styled(MdEdit)`
-    font-size: 1.4em;
+export const EditButton = styled(BaseEdit)`
     margin: 20px 0px 0px auto;
-    &:hover {
-        cursor: pointer;
-        color: black;
-    }
 `

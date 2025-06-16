@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { MdEdit } from 'react-icons/md'
 
 export const Degree = styled.div`
     font-size: 1.2em;
@@ -23,16 +22,6 @@ export const EducationContainer = styled.div`
 export const School = styled.div`
     font-size: 1.2em;
     font-weight: light;
-`
-export const Edit = styled(MdEdit)`
-  font-size: 1.4em;
-  margin: 0 0 0 auto;
-  transform: 0.2s;
-  &:hover {
-    cursor: pointer;
-    color: black;
-    transform: 0.2s;
-  }
 `
 export const Row = styled.div`
   display: flex;

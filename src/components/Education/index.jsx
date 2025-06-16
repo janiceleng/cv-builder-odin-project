@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { EducationContainer, School, Degree, Year, Edit, Row } from "./style";
+import { EducationContainer, School, Degree, Year, Row } from "./style";
+import { Edit } from '../shared-style'
 import Modal from '../Modal'
 import UserInput from '../UserInput'
 import { EDUCATION_CONFIG, educationFields } from "../../constants";

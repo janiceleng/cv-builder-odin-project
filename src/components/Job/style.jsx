@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { MdEdit, MdClose } from 'react-icons/md'
 
 export const JobContainer = styled.div`
     font-family: "Roboto", sans-serif;
@@ -43,16 +42,6 @@ export const Ul = styled.ul`
 
 export const EducationContainer = styled(JobContainer)``
 export const SchoolDiv = styled(CompanyDiv)``
-
-export const Edit = styled(MdEdit)`
-    font-size: 1.4em;
-    margin: 0px 0px 0px auto; 
-    vertical-align:middle;
-    &:hover {
-        cursor: pointer;
-        color: black;
-    }
-`
 
 export const Flex = styled.div`
     display: flex;
